@@ -1,0 +1,48 @@
+body{
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+        background-color:#282828;
+        background-size:16px 16px;
+    color: #fff;
+}
+
+nav#mainNav {
+    background: #1a1a1a85 !important;
+    
+}
+.info-aluno {
+    position: relative;
+    top: 200px;
+   
+}
+.branco h1,
+.info-aluno h1 {
+    font-size: 50px;
+    font-weight: 100;
+	 
+}
+a.navbar-brand.js-scroll-trigger {
+    padding: 25px;
+    font-size: 41px;
+    text-align: center;
+    margin: 0 auto;
+}
+.perfil {
+    border-radius: 100%;
+    margin: 200px auto 170px;
+    width: 320px;
+    text-align: center;
+    display: block;
+    height: 320px;
+}
+ 
+
+ 
+a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 75px !important;
+}
